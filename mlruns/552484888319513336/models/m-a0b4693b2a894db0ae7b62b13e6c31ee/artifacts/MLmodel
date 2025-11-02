@@ -1,0 +1,22 @@
+artifact_path: file:///home/durai/Documents/Mlops_DSE/End-to-End-MLOps-Project-with-MLflow-Docker-and-CI-CD/mlruns/552484888319513336/models/m-a0b4693b2a894db0ae7b62b13e6c31ee/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-a0b4693b2a894db0ae7b62b13e6c31ee
+model_size_bytes: 724338
+model_uuid: m-a0b4693b2a894db0ae7b62b13e6c31ee
+prompts: null
+run_id: ed561131b84941329c65ca134d384794
+utc_time_created: '2025-10-25 16:38:35.076363'

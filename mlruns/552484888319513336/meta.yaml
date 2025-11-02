@@ -1,0 +1,6 @@
+artifact_location: file:///home/durai/Documents/Mlops_DSE/End-to-End-MLOps-Project-with-MLflow-Docker-and-CI-CD/mlruns/552484888319513336
+creation_time: 1761410314118
+experiment_id: '552484888319513336'
+last_update_time: 1761410314118
+lifecycle_stage: active
+name: HeartDiseasePrediction

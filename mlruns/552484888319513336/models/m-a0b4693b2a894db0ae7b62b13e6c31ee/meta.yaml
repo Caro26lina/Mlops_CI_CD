@@ -1,0 +1,10 @@
+artifact_location: file:///home/durai/Documents/Mlops_DSE/End-to-End-MLOps-Project-with-MLflow-Docker-and-CI-CD/mlruns/552484888319513336/models/m-a0b4693b2a894db0ae7b62b13e6c31ee/artifacts
+creation_timestamp: 1761410315052
+experiment_id: '552484888319513336'
+last_updated_timestamp: 1761410320020
+model_id: m-a0b4693b2a894db0ae7b62b13e6c31ee
+model_type: null
+name: model
+source_run_id: ed561131b84941329c65ca134d384794
+status: 2
+status_message: null

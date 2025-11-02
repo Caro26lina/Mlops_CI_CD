@@ -1,0 +1,14 @@
+artifact_uri: file:///home/durai/Documents/Mlops_DSE/End-to-End-MLOps-Project-with-MLflow-Docker-and-CI-CD/mlruns/552484888319513336/ed561131b84941329c65ca134d384794/artifacts
+end_time: 1761410320032
+entry_point_name: ''
+experiment_id: '552484888319513336'
+lifecycle_stage: active
+run_id: ed561131b84941329c65ca134d384794
+run_name: stately-trout-892
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761410314738
+status: 3
+tags: []
+user_id: durai
