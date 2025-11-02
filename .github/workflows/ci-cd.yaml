@@ -1,11 +1,11 @@
-name: CI/CD Pipeline
+name: Docker Build and Push
 
 on:
   push:
     branches: [main]
 
 jobs:
-  build-and-deploy:
+  docker-build:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,12 +28,3 @@ jobs:
         file: Dockerfile
         push: true
         tags: caro26lina/mlops-app:latest
-
-    - name: Set up Kubeconfig
-      run: |
-        echo "${{ secrets.KUBE_CONFIG_DATA }}" | base64 --decode > $HOME/.kube/config
-
-    - name: Deploy to Kubernetes
-      run: |
-        kubectl apply -f k8s/deployment.yaml
-        kubectl apply -f k8s/service.yaml
