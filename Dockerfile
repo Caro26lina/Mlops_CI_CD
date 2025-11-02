@@ -10,8 +10,8 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose Flask port
+# Expose port (adjust if using FastAPI with uvicorn)
 EXPOSE 5000
 
-# Run the app
+# Run the app (Flask or FastAPI)
 CMD ["python", "app.py"]
